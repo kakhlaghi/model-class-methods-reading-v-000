@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
-
+ApplicationController
+  helper_method :params
   def index
     @posts = Post.all
   end
